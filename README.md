@@ -226,7 +226,7 @@ When a transition effect is used, it animates the elements in the Panel provided
 
 ## CSS
 
-The `index.css ` file located under [example/app/public/css](https://github.com/gobhi/gbone.js/blob/master/example/public/css/index.css) in the provided demo application is a great example of how to layout the css for Stages and Panels.  This layout works well with GFX and Zepto-GFX.
+The `index.css ` file located at [example/app/public/css](https://github.com/gobhi/gbone.js/blob/master/example/public/css/index.css) in the provided demo application is a great example of how to layout the css for Stages and Panels.  This layout works well with GFX and Zepto-GFX.
 
 The css in the demo application is just one way of doing it.  It is mainly up to you to style your application so that it works with Gbone.
 
