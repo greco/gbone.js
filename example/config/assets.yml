@@ -1,0 +1,30 @@
+gzip_assets: off
+
+template_function: _.template
+
+compress_assets: off
+
+javascripts:
+
+  application:
+    - lib/zepto.js
+    - lib/zepto-gfx.js
+    - lib/underscore.js
+    - lib/backbone.js
+    - lib/gbone.js
+    - app/app.js
+    - app/models/*.js
+    - app/collections/*.js
+    - app/routers/*.js
+    - app/views/*.js
+    - app/helpers/*.js
+    - app/helpers/transitions/*.js
+    - app/templates/*.jst
+    
+stylesheets:
+
+  application:
+    - public/css/index.css
+    - public/css/theme.css
+    - public/css/views/*css
+    - public/css/images.css

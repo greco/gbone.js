@@ -1,0 +1,32 @@
+<section class="status">
+  <span><%= model.get('from').code %><em>→</em><%= model.get('to').code %></span>
+</section>
+
+<section class="input">
+  <h1><%= model.format(model.get('input'), model.addPoint) %></h1>
+  <h2><em><%= model.get('from').symbol %></em> <%= model.get('from').name %></h2>
+</section>
+
+<section class="flip">
+  <button>Flip</button>
+</section>
+
+<section class="output">
+  <h1><%= model.format(model.get('output')) %></h1>
+  <h2><em><%= model.get('to').symbol %></em> <%= model.get('to').name %></h2>
+</section>
+
+<article class="pad">
+  <div data-num="1">1</div>
+  <div data-num="2">2</div>
+  <div data-num="3">3</div>
+  <div data-num="0">0</div>
+  <div data-num="4">4</div>
+  <div data-num="5">5</div>
+  <div data-num="6">6</div>
+  <div class="point">.</div>
+  <div data-num="7">7</div>
+  <div data-num="8">8</div>
+  <div data-num="9">9</div>
+  <div class="clear">Clear</div>
+</article>

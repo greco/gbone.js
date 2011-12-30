@@ -1,0 +1,18 @@
+desc 'Run simple static file server for development purposes'
+task :serve do
+  sh 'thin -A file -c public/ start'
+end
+
+desc 'Clean build artifacts'
+task :clean do
+  sh 'rm -rf public/application.js'
+  sh 'rm -rf public/application.css'
+end
+
+desc 'Build application'
+task :build => [:clean] do 
+  # run jammit
+  sh 'jammit -o public -c config/assets.yml'
+end
+
+task :default => :build

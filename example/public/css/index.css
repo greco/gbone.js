@@ -1,0 +1,45 @@
+body,
+html {
+  height: 100%;
+}
+
+.viewport {
+  position: relative;
+  overflow: hidden;
+}
+.viewport > * {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.viewport > *:not(.active) {
+  display: none;
+}
+
+body.stage > article {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.panel {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+}
+
+.panel > article {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}

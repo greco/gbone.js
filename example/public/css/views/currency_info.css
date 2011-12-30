@@ -1,0 +1,30 @@
+.panel.info > article {
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.panel.info header {
+  position: relative;
+  border-bottom: 0.1em solid #ddd;
+  overflow: hidden;
+}
+
+.panel.info header h2 {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 10px 0;
+}
+
+.panel.info header button {
+  margin: 0.6em;
+  font-size: 1em;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.panel.info #about {
+  text-align: center;
+  margin-top: 5em;
+}

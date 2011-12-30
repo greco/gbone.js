@@ -1,0 +1,1 @@
+App.Models.Currency = Backbone.Model.extend();

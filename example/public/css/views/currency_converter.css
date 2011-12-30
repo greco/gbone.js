@@ -1,0 +1,96 @@
+.currencies article .status {
+  margin: 0.5em 0em;
+  font-size: 1.8em;
+  text-align: center;
+}
+.currencies article .status em {
+  position: relative;
+  top: -2px;
+  color: #aaa;
+  display: inline-block;
+  font-size: 0.9em;
+}
+.currencies article .input,
+.currencies article .output {
+  position: relative;
+  padding: 0.4em 0.5em 1em 0em;
+  border-top: 1px solid #f3f3f3;
+  cursor: pointer;
+  text-align: right;
+  background: transparent none 2% 47% no-repeat;
+}
+.currencies article .input:active,
+.currencies article .output:active {
+  background-color: rgba(0,255,0,0.40);
+}
+.currencies article .input h1,
+.currencies article .output h1 {
+  padding: 0em 0em 0.1em;
+  font-size: 4.7em;
+  letter-spacing: 0.02em;
+}
+.currencies article .input h2,
+.currencies article .output h2 {
+  padding: 0em 0.2em 0em;
+  color: #999;
+  font-size: 1.1em;
+  line-height: 0.5;
+}
+.currencies article .input h2 em,
+.currencies article .output h2 em {
+  left: -0.3em;
+  color: #ccc;
+}
+.currencies article .flip {
+  position: absolute;
+  top: auto;
+  z-index: 1;
+  padding: 1.5em 1.3em;
+  margin: -2.3em 0em 0em 0em;
+}
+.currencies article .flip button {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.currencies article .pad {
+  background: #f2f2f2;
+  -moz-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);
+  -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);
+  -moz-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);
+  -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+.currencies article .pad div {
+  float: left;
+  width: 25%;
+  padding: 0.7em 0em;
+  margin: 1.2% 0%;
+  font-size: 2.7em;
+  text-align: center;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.currencies article .pad div:active {
+  background: rgba(0,0,0,0.05);
+}
+.currencies article .pad .clear {
+  padding-top: 2.45em;
+  font-size: 1.4em;
+  background: none 50% 30% no-repeat;
+}
+
+.currencies header {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.currencies header button {
+  float: right;
+  margin: 0.6em;
+  font-size: 1em;
+}
