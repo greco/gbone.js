@@ -1,4 +1,2 @@
-example/vendor/cache/*
 .DS_Store
-example/.DS_Store
-docs/.DS_Store
+example/vendor/cache/*
