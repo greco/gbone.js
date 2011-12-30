@@ -4,8 +4,6 @@ Gbone.js is a framework written on top of [Backbone](https://github.com/document
 
 This project is heavily inspired by [Spine.Mobile](http://spinejs.com/mobile/index), especially the idea of Stages and Panels.  I really liked the framework but since it was built on top of [Spine](http://spinejs.com/), I wanted to write one for Backbone.  Some design patterns such as the `observer` and `cleanup` mixins were also influenced by [ThoughtBot](http://thoughtbot.com/)'s excellent ebook [Backbone.js on Rails](http://workshops.thoughtbot.com/backbone-js-on-rails).
 
-The annotated source for Gbone.js is available at http://gobhi.github.com/gbone.js/docs/gbone.html.
-
 ## Dependancies
 
 Gbone.js is dependant on [Backbone](https://github.com/documentcloud/backbone/), [Underscore](http://documentcloud.github.com/underscore/) and either [Zepto](http://zeptojs.com/) or [jQuery](http://jquery.com/).  Zepto is recommended over jQuery because it's lightweight and ideal for mobile webkit development.  The default transition effects used by the `transitions` mixin are dependant on [Zepto-GFX](https://github.com/gobhi/zepto-gfx) if Zepto is used, or [GFX](https://github.com/maccman/gfx) if jQuery is used.
