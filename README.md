@@ -226,13 +226,13 @@ When a transition effect is used, it animates the elements in the Panel provided
 
 ## CSS
 
-The `index.css ` file located under _example/app/public/css_ in the provided demo application is a great example of how to layout the css for Stages and Panels.  This layout works well with GFX and Zepto-GFX.
+The `index.css ` file located under [example/app/public/css](https://github.com/gobhi/gbone.js/blob/master/example/public/css/index.css) in the provided demo application is a great example of how to layout the css for Stages and Panels.  This layout works well with GFX and Zepto-GFX.
 
 The css in the demo application is just one way of doing it.  It is mainly up to you to style your application so that it works with Gbone.
 
 ## Demo application
 
-The demo application (found under the _example_ directory) is a re-write of the [currency.io](https://github.com/benschwarz/currency.io) web application using Gbone.
+The demo application (found under the [example directory](https://github.com/gobhi/gbone.js/tree/master/example)) is a re-write of the [currency.io](https://github.com/benschwarz/currency.io) web application using Gbone.
 
 Most of the application specific styling for the demo application was taken from the Spine.Mobile version of currency.io: https://github.com/maccman/spine.mobile.currency.
 
