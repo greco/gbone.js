@@ -1,4 +1,4 @@
-# Gbone
+# Gbone.js
 
 Gbone.js is a framework written on top of [Backbone](https://github.com/documentcloud/backbone/) for building mobile JavaScript applications.
 
