@@ -1,6 +1,6 @@
 desc 'Run simple static file server for development purposes'
 task :serve do
-  sh 'thin -A file -c public/ start'
+  sh 'bundle exec thin -A file -c public/ start'
 end
 
 desc 'Clean build artifacts'
@@ -12,7 +12,7 @@ end
 desc 'Build application'
 task :build => [:clean] do 
   # run jammit
-  sh 'jammit -o public -c config/assets.yml'
+  sh 'bundle exec jammit -o public -c config/assets.yml'
 end
 
 task :default => :build
