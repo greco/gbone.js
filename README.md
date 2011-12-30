@@ -234,11 +234,7 @@ The css in the demo application is just one way of doing it.  It is mainly up to
 
 The demo application (found under the _example_ directory) is a re-write of the [currency.io](https://github.com/benschwarz/currency.io) web application using Gbone.
 
-Among other things, it demonstrates one way of setting up the application layout with CSS.  Most of the application specific styling for the demo application was taken from the Spine.Mobile version of currency.io: https://github.com/maccman/spine.mobile.currency.
-
-## To do
-
-- Package up Gbone.js into an NPM package.
+Most of the application specific styling for the demo application was taken from the Spine.Mobile version of currency.io: https://github.com/maccman/spine.mobile.currency.
 
 ## License
 
